@@ -1,0 +1,34 @@
+@media screen and (max-width: 600px){
+    .my-breakpoint .ui-block-a,.my-breakpoint .ui-block-b{
+      width: 100%;
+      float:none;
+    }
+    #tweets{
+      margin-bottom: 10px;
+    }
+}
+header{
+  text-align: center;
+}
+#hashtags{
+  box-shadow: 10px 10px 5px #888888;
+	background-color: #55ACEE;
+  word-wrap: break-word;
+}
+.tweet{
+	background-color: #F0F0F0;
+  min-height: 70px;
+  height: 100%;
+  overflow: auto;
+  box-shadow: 10px 10px 5px #888888;
+  margin: 1px;
+  word-wrap: break-word;
+
+}
+.roundImage{
+  border-radius: 50%;
+  overflow: hidden;
+  min-width: 20px;
+  min-height: 20px;
+  margin: 3px;
+}
